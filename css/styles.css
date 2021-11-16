@@ -260,6 +260,11 @@ li {
     padding: 20px 10px;
     margin: 0 3px;
     height: 200px;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  .programs .programs-container .program:hover {
+    border: 1px solid #ddd;
   }
   .programs .programs-container .program .program-title {
     flex-direction: column;
