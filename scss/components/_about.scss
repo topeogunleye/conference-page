@@ -1,12 +1,103 @@
-.about-page {
+.about-section {
   text-align: center;
+  padding: 30px 0;
+  background-image: url(../../images/background/white-wood.jpg);
 
   .text-container {
     .about-text {
       padding: 8px 16px;
       background: #fff;
+      color: #878787;
       line-height: 35px;
-      border-radius: 1px solid #333;
+      width: 87.5%;
+      margin: 30px auto;
+    }
+  }
+}
+
+.other-info {
+  text-align: center;
+  max-width: 87.5%;
+  margin: auto;
+
+  img {
+    width: 100px;
+    margin: 30px auto;
+  }
+
+  .previous-summits {
+    padding: 20px 0;
+    margin: auto;
+
+    .previous-summit {
+      background-color: $secondary;
+      padding: 60px;
+      margin: 20px auto;
+      color: #fff;
+    }
+  }
+}
+
+.partners {
+  background-color: #424146;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+
+  h3 {
+    color: #fff;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      flex: 0 1 120px;
+      margin: 10px;
+    }
+  }
+}
+
+footer {
+  .copyright {
+    display: flex;
+    max-width: 87.5%;
+    margin: auto;
+    align-items: center;
+    padding: 20px 10px;
+
+    img {
+      width: 50px;
+    }
+
+    p {
+      max-width: 200px;
+      margin-left: 20px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .other-info {
+    .previous-summits {
+      display: flex;
+    }
+  }
+
+  .partners {
+    ul {
+      li {
+        flex: 0 1 230px;
+      }
+    }
+  }
+
+  footer {
+    .copyright {
+      p {
+        max-width: 100%;
+      }
     }
   }
 }

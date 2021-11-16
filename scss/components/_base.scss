@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
+
 * {
   box-sizing: border-box;
   // border: 3px dashed red;
@@ -14,6 +15,7 @@ li {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style: none;
 }
 
 /* fonts */
@@ -25,7 +27,7 @@ h1 {
   color: $secondary;
   font-weight: 400;
   font-size: 30px;
-  font-family: cocogoose, 'arial';
+  font-family: cocogoose, sans-serif;
 }
 
 h3 {
@@ -51,7 +53,7 @@ li {
   font-size: 46px;
   font-weight: bold;
   line-height: 54px;
-  font-family: cocogoose, 'arial';
+  font-family: cocogoose, sans-serif;
 }
 
 .flex {
@@ -91,6 +93,7 @@ li {
     max-width: 36px;
   }
 }
+
 @media (min-width: $breakpoint-laptop) {
   h3 {
     font-size: 40px;
