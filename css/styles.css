@@ -86,6 +86,9 @@ li {
 
 .header_logo {
   width: 36px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 .header_logo img {
   max-width: 36px;
@@ -99,6 +102,13 @@ li {
 
   .container {
     margin: auto;
+  }
+
+  .header_logo {
+    position: initial;
+  }
+  .header_logo img {
+    max-width: 36px;
   }
 }
 .header_section {
@@ -148,7 +158,7 @@ li {
   background-color: #333;
   padding: 10px;
 }
-.programs h1 {
+.programs h2 {
   color: #fff;
   text-align: center;
 }
