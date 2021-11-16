@@ -266,6 +266,11 @@ li {
   .programs .programs-container .program .program-description {
     width: 100%;
   }
+
+  .speakers .speaker-container {
+    max-width: 87.5%;
+    margin: auto;
+  }
 }
 /* NavBar */
 @media (max-width: 767px) {
@@ -376,11 +381,12 @@ li {
 .other-info .previous-summits {
   padding: 20px 0;
   margin: auto;
+  width: 600px;
 }
 .other-info .previous-summits .previous-summit {
   background-color: #ec5242;
   padding: 60px;
-  margin: 20px auto;
+  margin: 20px 5px;
   color: #fff;
 }
 

@@ -28,11 +28,12 @@
   .previous-summits {
     padding: 20px 0;
     margin: auto;
+    width: 600px;
 
     .previous-summit {
       background-color: $secondary;
       padding: 60px;
-      margin: 20px auto;
+      margin: 20px 5px;
       color: #fff;
     }
   }

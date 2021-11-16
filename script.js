@@ -30,6 +30,22 @@ const SPEAKERS = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos, nemo quis blanditiis cum minima!',
     imgSrc: 'images/speakers/me.jpg',
   },
+
+  {
+    name: 'Sebastian Hemis',
+    info: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis.',
+    about:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos, nemo quis blanditiis cum minima!',
+    imgSrc: 'images/speakers/me.jpg',
+  },
+
+  {
+    name: 'Damon Salvotor',
+    info: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis.',
+    about:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos, nemo quis blanditiis cum minima!',
+    imgSrc: 'images/speakers/me.jpg',
+  },
 ];
 
 window.addEventListener('DOMContentLoaded', () => {
