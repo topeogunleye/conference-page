@@ -257,6 +257,7 @@ li {
     width: 230px;
     padding: 20px 10px;
     margin: 0 3px;
+    height: 200px;
   }
   .programs .programs-container .program .program-title {
     flex-direction: column;
