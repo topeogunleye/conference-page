@@ -338,7 +338,7 @@ li {
     display: flex;
     align-items: center;
     list-style: none;
-    width: 450px;
+    width: 600px;
     justify-content: space-between;
   }
   .menu-wrap .navbar ul li a {
