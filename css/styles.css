@@ -224,6 +224,7 @@ li {
 }
 .speakers .speaker-container .speaker .img-container img {
   max-width: 100%;
+  border-radius: 20%;
 }
 .speakers .speaker-container .speaker .text-container {
   text-align: initial;
@@ -234,7 +235,7 @@ li {
 .speakers .speaker-container .speaker .text-container h3 {
   margin: 0;
   color: #333;
-  font-size: 24px;
+  font-size: 19px;
 }
 .speakers .speaker-container .speaker .text-container h4 {
   margin: 0;
