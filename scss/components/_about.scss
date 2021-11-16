@@ -28,7 +28,6 @@
   .previous-summits {
     padding: 20px 0;
     margin: auto;
-    width: 600px;
 
     .previous-summit {
       background-color: $secondary;
@@ -83,6 +82,8 @@ footer {
   .other-info {
     .previous-summits {
       display: flex;
+      width: 600px;
+
     }
   }
 

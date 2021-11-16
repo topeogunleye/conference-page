@@ -382,7 +382,6 @@ li {
 .other-info .previous-summits {
   padding: 20px 0;
   margin: auto;
-  width: 600px;
 }
 .other-info .previous-summits .previous-summit {
   background-color: #ec5242;
@@ -427,6 +426,7 @@ footer .copyright p {
 @media (min-width: 768px) {
   .other-info .previous-summits {
     display: flex;
+    width: 600px;
   }
 
   .partners ul li {
