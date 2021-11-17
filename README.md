@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://topeogunleye.github.io/conference-page/)
 
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.
