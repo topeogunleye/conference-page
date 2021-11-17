@@ -14,6 +14,7 @@ Additional description about the project and its features.
 - Stylelint, Web Hint, Lighthouse
 
 ## Live Demo
+[Loom Video](https://www.loom.com/share/fc9fe1872c414444a97ea7e1e145b650)
 
 [Live Demo Link](https://topeogunleye.github.io/conference-page/)
 
