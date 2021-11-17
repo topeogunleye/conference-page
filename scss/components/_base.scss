@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  box-sizing: border-box;
+  // border: 3px dashed red;
+}
+
+/* reset */
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* fonts */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: $secondary;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: cocogoose, sans-serif;
+}
+
+h3 {
+  color: $secondary;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 10px 0;
+}
+
+.section_header {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+li {
+  color: #7a869a;
+}
+
+.leading {
+  color: $secondary;
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 54px;
+  font-family: cocogoose, sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container {
+  max-width: 100%;
+  margin: auto;
+  background-color: #e5e5e5;
+  border-bottom-left-radius: 90px;
+}
+
+.container {
+  width: 87.2%;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 65px;
+  place-items: center;
+}
+
+/* button styles */
+.btn {
+  padding: 10px 20px;
+  border: 5px solid $secondary;
+}
+
+.header_logo {
+  width: 36px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  img {
+    max-width: 36px;
+  }
+}
+
+@media (min-width: $breakpoint-laptop) {
+  h3 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .container {
+    margin: auto;
+  }
+
+  .header_logo {
+    position: initial;
+
+    img {
+      max-width: 36px;
+    }
+  }
+}
