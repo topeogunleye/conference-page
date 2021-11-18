@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Capstone Project
 
-> Portfolio: setup and mobile version skeleton.
+> HTML, CSS, JS Capstone project with the concept of a conference page.
 
 ![screenshot](./app_screenshot.png)
 
