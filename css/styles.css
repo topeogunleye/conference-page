@@ -85,10 +85,10 @@ li {
 }
 
 .header_logo {
-  width: 36px;
+  width: 20px;
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 20px;
+  top: 17px;
 }
 .header_logo img {
   max-width: 36px;
@@ -276,6 +276,9 @@ li {
   .speakers .speaker-container {
     max-width: 87.5%;
     margin: auto;
+  }
+  .speakers .btn-speaker {
+    max-width: 600px;
   }
 }
 /* NavBar */
